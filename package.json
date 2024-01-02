@@ -1,12 +1,12 @@
 {
   "name": "sns-inscription-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validate sns inscription on ordinals",
-  "main": "app.js",
+  "main": "dist/app.js",
+  "types": "dist/index.d.ts",
+  "files": ["/dist"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc -p .",
-    "start": "ts-node ./src/app.ts"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -25,8 +25,7 @@
     "url": "https://github.com/nodeworld/sns-inscription-validator/issues"
   },
   "homepage": "https://github.com/nodeworld/sns-inscription-validator#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/node": "20.4.1",
     "typescript": "5.0.2",
