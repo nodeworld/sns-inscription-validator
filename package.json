@@ -1,6 +1,6 @@
 {
   "name": "sns-inscription-validator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Validate sns inscription on ordinals",
   "main": "dist/app.js",
   "types": "dist/index.d.ts",
