@@ -28,4 +28,6 @@ Inside your function, call - validateInscription('name.sats');
 3. If there are any invalid unicodes found in snsnames, it is invalid. Zero width characters or invisble characters are considered as invalid as it will mislead the buyers. For more information on invisible unicode characters, please browse on invisible unicode characters.
 
 
-Please note, this library will not if snsnames are inscribed on raresats.
+Please note, this library will not validate rare sats like uncommon, vintage etc. if snsnames are inscribed on raresats. Will rollout this feature based on response for this library.
+
+_UFE0F & UFE0E unicodes are variation selectors. BestInSlot platform shows these unicodes as invalid, but these unicodes are not invisible characters and hence it is treated as valid in this library._

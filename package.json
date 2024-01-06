@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "description": "Validate sns inscription on ordinals",
   "main": "dist/app.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/app.d.ts",
   "files": ["/dist"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

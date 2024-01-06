@@ -11,6 +11,8 @@
       "rootDir": "./src",
       "module": "CommonJS",
       "moduleResolution": "Node",
+      "outDir": "./dist",
+      "declaration": true
     },
     "ts-node": {
         "esm": true

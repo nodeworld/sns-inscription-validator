@@ -34,7 +34,7 @@ function validateSnsInscriptions(value: string) {
 }
 
 
-export default function validateInscription(value: string, isArabic = true) {
+export function validateInscription(value: string, isArabic = true) {
     const getUnicodeArray = validateSnsInscriptions(value) || [];
     let isInvalidUnicode = false;
     let hasArabic = false;
